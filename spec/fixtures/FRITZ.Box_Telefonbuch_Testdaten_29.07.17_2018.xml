@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phonebooks>
+  <phonebook name="Testdaten" owner="1">
+    <contact>
+      <category>0</category>
+      <person>
+        <realName>First Contact</realName>
+      </person>
+      <telephony nid="7">
+        <number id="1" prio="1" type="work">111111111</number>
+      </telephony>
+      <services/>
+      <setup/>
+      <features doorphone="0"/>
+      <mod_time>1501339867</mod_time>
+      <uniqueid>1</uniqueid>
+    </contact>
+    <contact>
+      <category>0</category>
+      <person>
+        <realName>Second Contact</realName>
+      </person>
+      <telephony nid="7">
+        <number id="1" prio="1" type="work">2222222222</number>
+        <number id="2" type="work">3333333333</number>
+        <number id="3" type="work">4444444444</number>
+      </telephony>
+      <services/>
+      <setup/>
+      <features doorphone="0"/>
+      <mod_time>1501339867</mod_time>
+      <uniqueid>2</uniqueid>
+    </contact>
+    <contact>
+      <category>0</category>
+      <person>
+        <realName>Third Contact</realName>
+      </person>
+      <telephony nid="7">
+        <number id="0" prio="1" type="home">5555555555</number>
+        <number id="1" type="mobile">6666666666</number>
+        <number id="2" type="work">7777777777</number>
+        <number id="3" type="fax_work">8888888888</number>
+      </telephony>
+      <services/>
+      <setup/>
+      <features doorphone="0"/>
+      <mod_time>1501352277</mod_time>
+      <uniqueid>3</uniqueid>
+    </contact>
+    <contact>
+      <category>1</category>
+      <person>
+        <realName>Fourth Contact</realName>
+      </person>
+      <telephony nid="9">
+        <number id="1" prio="1" type="work">9999999999</number>
+      </telephony>
+      <services/>
+      <setup/>
+      <features doorphone="0"/>
+      <mod_time>1501339867</mod_time>
+      <uniqueid>4</uniqueid>
+    </contact>
+  </phonebook>
+</phonebooks>

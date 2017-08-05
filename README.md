@@ -1,8 +1,8 @@
 # Fonbok
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fonbok`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Abstract
 
-TODO: Delete this and the text above, and describe your gem
+fonbok reads and writes phonebook files for AVM FRITZ!Box devises.
 
 ## Installation
 
@@ -22,7 +22,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Import of phonebook XML file
+
+```ruby
+require 'fonbok'
+
+reader = Fonbok::Reader.new(path_to_your_phonebook_xml_file)
+phonebook = reader.import
+puts phonebook
+
+puts phonebook.name
+phonebook.contacts.each do |contact|
+  puts contact.name
+  contact.numbers.each do |number|
+    puts number
+  end
+end
+```
 
 ## Development
 

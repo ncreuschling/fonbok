@@ -1,5 +1,7 @@
-require "fonbok/version"
+require 'fonbok/version'
+require 'fonbok/formatters'
+require 'fonbok/reader'
+require 'fonbok/writer'
 
 module Fonbok
-  # Your code goes here...
 end

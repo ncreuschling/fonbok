@@ -1,5 +1,7 @@
 # Fonbok
 
+[![Build Status](https://travis-ci.org/ncreuschling/fonbok.svg?branch=master)](https://travis-ci.org/ncreuschling/fonbok) [![Gem Version](https://badge.fury.io/rb/fonbok.svg)](https://badge.fury.io/rb/fonbok)
+
 ## Abstract
 
 fonbok reads and writes phonebook files for AVM FRITZ!Box devices.

@@ -24,7 +24,7 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
 
   # gem signing
   spec.cert_chain  = ['certs/fonbok-public_cert.pem']
-  spec.signing_key = File.expand_path("~/.ssh/fonbok-private_key.pem") if $0 =~ /gem\z/
+  spec.signing_key = File.expand_path('~/.ssh/fonbok-private_key.pem') if $PROGRAM_NAME.match?(/gem\z/)
 
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 10.0'

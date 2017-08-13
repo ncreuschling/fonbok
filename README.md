@@ -4,7 +4,7 @@
 
 ## Abstract
 
-fonbok reads and writes phonebook files for AVM FRITZ!Box devices.
+fonbok reads (and soon-ish writes) phonebook files for AVM FRITZ!Box devices.
 
 ## Installation
 

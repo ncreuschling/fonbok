@@ -25,4 +25,8 @@ RSpec.describe Fonbok::Phonebook do
                                           phone: 0123456789
                                     EXPECTED_OUTPUT
   end
+
+  it 'is inspectable and displays the name of the phonebook' do
+    expect(phonebook.inspect).to match(/Fonbok::Phonebook name: my phonebook/)
+  end
 end
